@@ -1,0 +1,78 @@
+.Header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 5;
+    transition: all 0.3s ease-in-out;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 1080px) {
+        position: initial;
+        height: 200px !important;
+        background-position: 59% 20px;
+    }
+}
+.Header > .listen.Button {
+    @media screen and (max-width: 1080px) {
+        display: none;
+    }
+}
+.Header .category-name {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.Header .category-name svg {
+    transition: all 0.3s ease-in-out;
+}
+
+.Header .group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (max-width: 1080px) {
+        align-items: flex-start;
+        margin-left: 5px;
+    }
+}
+
+.Header .listen {
+    margin-left: 140px;
+}
+
+.Header .arxiki a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+
+    line-height: 1.71;
+    letter-spacing: normal;
+    transition: all 0.3s ease-in-out;
+}
+
+.Header .arxiki {
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    @media screen and (max-width: 1080px) {
+        position: initial;
+        margin-left: 5px;
+    }
+}

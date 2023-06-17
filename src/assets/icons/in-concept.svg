@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="color" width="17.056" height="21" viewBox="0 0 17.056 21">
+    <defs>
+        <style>
+            .inconcert-1{fill:#dd137a}.inconcert-1,.inconcert-3{fill-rule:evenodd}.inconcert-2{fill:#84c325}.inconcert-3{fill:#0293de}.inconcert-4{fill:#f57f17}
+        </style>
+    </defs>
+    <path d="M393.311 189.592l2.512-21h2.815l-2.511 21z" class="inconcert-1" data-name="Path 1235" transform="translate(-390.222 -168.592)"/>
+    <path d="M0 0h15.974v2.817H0z" class="inconcert-2" data-name="Rectangle 637" transform="translate(1.082 6.462)"/>
+    <path d="M812.914 189.592l2.511-21h2.817l-2.512 21z" class="inconcert-3" data-name="Path 1236" transform="translate(-803.683 -168.592)"/>
+    <path d="M0 0h15.973v2.815H0z" class="inconcert-4" data-name="Rectangle 638" transform="translate(0 11.776)"/>
+    <path d="M393.311 948.131l1.177-9.75h2.812l-1.177 9.75z" class="inconcert-1" data-name="Path 1237" transform="translate(-390.226 -927.131)"/>
+</svg>

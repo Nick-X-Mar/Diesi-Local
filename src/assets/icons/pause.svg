@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.857" height="62" viewBox="0 0 54.857 62">
+    <defs>
+        <style>
+            .player-pause-1{fill:#fff}.player-pause-2{filter:url(#pause-button-background)}
+        </style>
+        <filter id="pause-button-background" width="54.857" height="62" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g class="player-pause-2">
+        <path d="M6 55h14.286V5H6zM34.571 5v50h14.286V5z" class="player-pause-1" transform="translate(0 -1)"/>
+    </g>
+</svg>

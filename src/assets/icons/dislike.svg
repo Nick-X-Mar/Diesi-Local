@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.5" height="26.205" viewBox="0 0 28.5 26.205">
+    <defs>
+        <style>
+            .dislike{fill:none;stroke:#000}
+        </style>
+    </defs>
+    <path d="M18.5 3H7.25a2.483 2.483 0 0 0-2.3 1.525l-3.775 8.813A2.47 2.47 0 0 0 1 14.25v2.5a2.507 2.507 0 0 0 2.5 2.5h7.887L10.2 24.962l-.037.4a1.882 1.882 0 0 0 .55 1.325L12.038 28l8.237-8.238A2.484 2.484 0 0 0 21 18V5.5A2.507 2.507 0 0 0 18.5 3zm5 0v15h5V3z" class="dislike" data-name="Path 1285" transform="translate(-.5 -2.5)"/>
+</svg>

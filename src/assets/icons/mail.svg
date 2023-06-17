@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.5" height="18" viewBox="0 0 22.5 18">
+    <defs>
+        <style>
+            .mail-1{fill:#757575}
+        </style>
+    </defs>
+    <path d="M22.25 4h-18a2.247 2.247 0 0 0-2.239 2.25L2 19.75A2.257 2.257 0 0 0 4.25 22h18a2.257 2.257 0 0 0 2.25-2.25V6.25A2.257 2.257 0 0 0 22.25 4zm0 4.5l-9 5.625-9-5.625V6.25l9 5.625 9-5.625z" class="mail-1" transform="translate(-2 -4)"/>
+</svg>

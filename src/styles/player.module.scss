@@ -1,0 +1,101 @@
+.Player {
+    background: #f4da01;
+    display: flex;
+    flex: 1 0 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo {
+    max-width: 340px;
+    width: 100%;
+    padding: 20px;
+    height: 170px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.Buttons {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+    svg {
+        cursor: pointer;
+    }
+    .ButtonOverlay {
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        pointer-events: all;
+        display: block;
+    }
+}
+
+.Range {
+    height: 2px;
+    width: 110px;
+    height: 100%;
+    margin-bottom: 50px;
+    .VolumeTrack {
+        height: 2px;
+        width: 100%;
+        .VolumeThumb {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: black;
+            box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+        }
+    }
+}
+
+.ListeningNow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    .Label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+        .Svg {
+            width: 44px;
+            height: 44px;
+            margin-bottom: 10px;
+        }
+        .Type {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+    }
+    .Info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .Title {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 18px;
+            color: #0293de;
+            margin-bottom: 5px;
+        }
+        .Description {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 16px;
+            color: #000000;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5.894" viewBox="0 0 10 5.894">
+    <defs>
+        <style>
+            .arrow-down{fill:#fff}
+        </style>
+    </defs>
+    <path d="M5.894.894L5 0 0 5l5 5 .894-.894L1.788 5z" class="arrow-down" data-name="Path 1420" transform="rotate(-90 2.947 2.947)"/>
+</svg>

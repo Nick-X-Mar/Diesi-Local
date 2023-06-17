@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.5" height="26.206" viewBox="0 0 28.5 26.206">
+    <defs>
+        <style>
+            .like{fill:none;stroke:#000}
+        </style>
+    </defs>
+    <path d="M1 26h5V11H1zm27.5-13.75a2.507 2.507 0 0 0-2.5-2.5h-7.888L19.3 4.037l.038-.4a1.882 1.882 0 0 0-.55-1.325L17.462 1 9.238 9.238A2.444 2.444 0 0 0 8.5 11v12.5A2.507 2.507 0 0 0 11 26h11.25a2.483 2.483 0 0 0 2.3-1.525l3.775-8.813a2.47 2.47 0 0 0 .175-.912z" class="like" data-name="Path 1284" transform="translate(-.5 -.294)"/>
+</svg>

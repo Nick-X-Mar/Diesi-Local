@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51.286" height="62" viewBox="0 0 51.286 62">
+    <defs>
+        <style>
+            .player-play-1{fill:#fff}.player-play-2{filter:url(#play-button-background)}
+        </style>
+        <filter id="play-button-background" width="51.286" height="62" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-opacity=".161"/> 
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_1350" class="player-play-2" transform="translate(.002 -.001)">
+        <path id="Path_1410-2" d="M8 5v50l39.286-25z" class="player-play-1" transform="translate(-2 -1)"/>
+    </g>
+</svg>
