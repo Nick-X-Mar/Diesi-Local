@@ -102,3 +102,4 @@ dist/
 # misc
 *.tar.gz
 
+package-lock.json

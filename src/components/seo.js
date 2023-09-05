@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const SEO = ({ description, type, title, children, url, image }) => {
@@ -24,7 +24,11 @@ const SEO = ({ description, type, title, children, url, image }) => {
     const metaURL = url && url.length > 1 ? url : site.siteMetadata.siteUrl;
     const metaImage = image && image.length > 1 ? image : `${process.env.GATSBY_API_URL}/${site.siteMetadata.image}`;
     const metaType = type && type.length > 1 ? type : 'website';
-
+    console.log("Meta Description: ", metaDescription);
+    console.log("Meta Title: ", metaTitle);
+    console.log("Meta URL: ", metaURL);
+    console.log("Meta Image: ", metaImage);
+    console.log("Meta Type: ", metaType);
     return (
         <Helmet title={metaTitle} titleTemplate={`%s | Diesi.gr`} defer={false}>
             <meta name="description" content={metaDescription} />

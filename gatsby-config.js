@@ -3,6 +3,18 @@ require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}`,
 });
 
+console.log('Environment Variables:');
+console.log('GATSBY_API_URL_INTERNAL:', process.env.GATSBY_API_URL_INTERNAL);
+console.log('GATSBY_SITE_URL:', process.env.GATSBY_SITE_URL);
+
+console.log('Constructed URLs:');
+console.log('Categories:', `${process.env.GATSBY_API_URL_INTERNAL}/categories`);
+console.log('Static Pages:', `${process.env.GATSBY_API_URL_INTERNAL}/static-pages`);
+console.log('Program:', `${process.env.GATSBY_API_URL_INTERNAL}/program`);
+console.log('Articles:', `${process.env.GATSBY_API_URL_INTERNAL}/articles?paginate=false&active=1`);
+console.log('Carousel Articles:', `${process.env.GATSBY_API_URL_INTERNAL}/carousel-articles`);
+console.log('Producers:', `${process.env.GATSBY_API_URL_INTERNAL}/producers`);
+
 module.exports = {
     trailingSlash: 'never',
     siteMetadata: {
@@ -195,7 +207,7 @@ module.exports = {
                 policy: [{ userAgent: '*', allow: '/' }],
             },
         },
-        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-react-helmet-async`,
         {
             resolve: `gatsby-plugin-canonical-urls`,
             options: {
